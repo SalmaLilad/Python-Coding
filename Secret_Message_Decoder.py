@@ -1,0 +1,80 @@
+#(START) SECRET MESSAGE MAKER & DECODER
+def secret_message_func(message):
+    
+    secret_message = input("What is your secret message? \n Secret Message: ")
+
+    #LETTERS (UPPERCASE)
+
+    message = secret_message.replace("A", "W")
+    message = secret_message.replace("B", "S")
+    message = secret_message.replace("C", "X")
+    message = secret_message.replace("D", "Q")
+    message = secret_message.replace("E", "A")
+    message = secret_message.replace("F", "Z")
+    message = secret_message.replace("G", "R")
+    message = secret_message.replace("H", "F")
+    message = secret_message.replace("I", "V")
+    message = secret_message.replace("J", "E")
+    message = secret_message.replace("K", "D")
+    message = secret_message.replace("L", "C")
+    message = secret_message.replace("M", "Y")
+    message = secret_message.replace("N", "H")
+    message = secret_message.replace("O", "N")
+    message = secret_message.replace("P", "T")
+    message = secret_message.replace("Q", "G")
+    message = secret_message.replace("R", "B")
+    message = secret_message.replace("S", "U")
+    message = secret_message.replace("T", "J")
+    message = secret_message.replace("U", "M")
+    message = secret_message.replace("V", "I")
+    message = secret_message.replace("W", "K")
+    message = secret_message.replace("X", "P")
+    message = secret_message.replace("Y", "O")
+    message = secret_message.replace("Z", "L")
+
+    #LETTERS (LOWERCASE)
+
+    message = secret_message.replace("a", "p")
+    message = secret_message.replace("b", "l")
+    message = secret_message.replace("c", "m")
+    message = secret_message.replace("d", "o")
+    message = secret_message.replace("e", "k")
+    message = secret_message.replace("f", "n")
+    message = secret_message.replace("g", "i")
+    message = secret_message.replace("h", "j")
+    message = secret_message.replace("i", "b")
+    message = secret_message.replace("j", "u")
+    message = secret_message.replace("k", "h")
+    message = secret_message.replace("l", "v")
+    message = secret_message.replace("m", "y")
+    message = secret_message.replace("n", "g")
+    message = secret_message.replace("o", "c")
+    message = secret_message.replace("p", "t")
+    message = secret_message.replace("q", "f")
+    message = secret_message.replace("r", "x")
+    message = secret_message.replace("s", "r")
+    message = secret_message.replace("t", "d")
+    message = secret_message.replace("u", "z")
+    message = secret_message.replace("v", "e")
+    message = secret_message.replace("w", "s")
+    message = secret_message.replace("x", "a")
+    message = secret_message.replace("y", "w")
+    message = secret_message.replace("z", "q")
+
+    #NUMBERS
+
+    message = secret_message.replace("0", ")")
+    message = secret_message.replace("1", "(")
+    message = secret_message.replace("2", "*")
+    message = secret_message.replace("3", "&")
+    message = secret_message.replace("4", "^")
+    message = secret_message.replace("5", "%")
+    message = secret_message.replace("6", "%")
+    message = secret_message.replace("7", "$")
+    message = secret_message.replace("8", "#")
+    message = secret_message.replace("9", "@")
+    
+    return secret_message
+    
+
+def secret_message_decoder(secret message decoder):
