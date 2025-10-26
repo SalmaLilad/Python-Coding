@@ -2,7 +2,7 @@
 
 This repository is part of my computer science and engineering learning portfolio.
 
-It includes Python programs I created while exploring different areas of coding, problem solving, and application development. These projects range from GUI development to web scraping, data manipulation, and automation. I built the Tkinter based Pizza ordering system in Prof. Maria Gini's a one week Python Programming camp at the University of Minnesota in the summer of 2024.
+It includes Python programs I created while exploring different areas of coding, problem solving, and application development. These projects range from GUI development to web scraping, data manipulation, and automation. I built the Tkinter based Pizza ordering system in Prof. Maria Gini's one week Python Programming camp at the University of Minnesota in the summer of 2024.
 
 ## Featured Projects
 - **Pizza Ordering System**: A GUI-based application using Tkinter that allows users to build a pizza order, calculate cost, and generate a receipt.  
