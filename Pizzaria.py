@@ -18,7 +18,6 @@ while True:
             exit()
     break
 
-# Normalize inputs to lowercase for consistency
 size = input("What size pizza would you like?\nSmall, Medium, or Large?").lower()
 add_pepperoni = input("Would you like to add pepperoni?\nYes or No").lower()
 add_peppers = input("Would you like to add some peppers?\nYes or No").lower()
@@ -70,3 +69,4 @@ print('''
             |\\/|  \\  `-'  /
             || |   \\     /
             ''')   
+
